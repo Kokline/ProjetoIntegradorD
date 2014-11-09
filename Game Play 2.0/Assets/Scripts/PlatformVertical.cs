@@ -37,6 +37,11 @@ public class PlatformVertical : MonoBehaviour
       }
    }
 
+   //void HitByRay()
+   //{
+   //   turnOn = true;
+   //}
+
    /// <summary>
    /// Início de colisão
    /// </summary>
@@ -45,6 +50,7 @@ public class PlatformVertical : MonoBehaviour
    {
       if (collider.tag == "Player")
       {
+         Debug.Log("OI");
          turnOn = true;
       }
    }

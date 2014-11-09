@@ -74,7 +74,7 @@ public class PlayerController : Entity
       {
          ducking = true;
          animator.SetBool("Ducking", true);
-         playerPhysics.SetCollider(new Vector3(10.3f, 1.5f, 2.63f), new Vector3(.35f, 1f, 0f));
+         playerPhysics.SetCollider(new Vector3(1.04f, 1.2f, 0.87f), new Vector3(-0.09f, 0.68f, 0.18f));
       }
       else
       {
@@ -107,7 +107,7 @@ public class PlayerController : Entity
       // Face Direction
       if (moveDirX != 0)
       {
-         transform.eulerAngles = (moveDirX > 0) ? Vector3.up * 180 : Vector3.zero;
+         transform.eulerAngles = (moveDirX > 0) ? Vector3.up * 90 : Vector3.up * 270;
       }
    }
 
