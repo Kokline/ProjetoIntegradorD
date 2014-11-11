@@ -37,20 +37,16 @@ public class PlatformVertical : MonoBehaviour
       }
    }
 
-   //void HitByRay()
-   //{
-   //   turnOn = true;
-   //}
-
    /// <summary>
    /// Início de colisão
    /// </summary>
    /// <param name="collider"></param>
    void OnTriggerEnter(Collider collider)
    {
+      Debug.Log("OI");
       if (collider.tag == "Player")
       {
-         Debug.Log("OI");
+
          turnOn = true;
       }
    }

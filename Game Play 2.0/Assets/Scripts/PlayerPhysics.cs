@@ -25,8 +25,6 @@ public class PlayerPhysics : MonoBehaviour
    public bool grounded;
    [HideInInspector]
    public bool movementStopped;
-   [HideInInspector]
-   public bool canWallHold;
 
    private Transform platform;
    private Vector3 platformPositionOld;
@@ -79,8 +77,6 @@ public class PlayerPhysics : MonoBehaviour
             platform = hit.transform;
             platformPositionOld = platform.position;
 
-            //hit.transform.SendMessage("HitByRay");
-
             // Get Distance between player and ground
             float dst = Vector3.Distance(ray.origin, hit.point);
 
@@ -97,9 +93,6 @@ public class PlayerPhysics : MonoBehaviour
             grounded = true;
 
             break;
-
-
-
          }
          else
          {
@@ -110,7 +103,6 @@ public class PlayerPhysics : MonoBehaviour
       #region Sideways Collisions
       // Check collisions left and right
       movementStopped = false;
-      canWallHold = false;
 
       if (deltaX != 0)
       {
@@ -125,16 +117,6 @@ public class PlayerPhysics : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit, Mathf.Abs(deltaX) + skin, collisionMask))
             {
-
-               if (hit.collider.tag == "Wall Jump")
-               {
-
-                  if (Mathf.Sign(deltaX) == Mathf.Sign(moveDirX) && moveDirX != 0)
-                  {
-                     canWallHold = true;
-                  }
-               }
-
                // Get Distance between player and ground
                float dst = Vector3.Distance(ray.origin, hit.point);
 
@@ -169,9 +151,7 @@ public class PlayerPhysics : MonoBehaviour
          }
       }
 
-
       Vector2 finalTransform = new Vector2(deltaX + deltaPlatformPos.x, deltaY + deltaPlatformPos.y);
-
       transform.Translate(finalTransform, Space.World);
    }
 

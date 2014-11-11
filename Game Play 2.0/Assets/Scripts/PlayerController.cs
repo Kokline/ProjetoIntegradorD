@@ -10,7 +10,6 @@ public class PlayerController : Entity
    // Player Handling
    public float gravity = 20;
    public float walkSpeed = 8;
-   public float runSpeed = 12;
    public float acceleration = 30;
    public float jumpHeight = 12;
 
@@ -98,11 +97,18 @@ public class PlayerController : Entity
    /// </summary>
    private void MovimentacaoLateral()
    {
-      // Input
-      moveDirX = Input.GetAxisRaw("Horizontal");
-      float speed = (Input.GetButton("Run")) ? runSpeed : walkSpeed;
-      targetSpeed = moveDirX * speed;
-      currentSpeed = IncrementTowards(currentSpeed, targetSpeed, acceleration);
+      if (ducking)
+      {
+         currentSpeed = 0;
+      }
+      else
+      {
+         // Input
+         moveDirX = Input.GetAxisRaw("Horizontal");
+         float speed = walkSpeed;
+         targetSpeed = moveDirX * speed;
+         currentSpeed = IncrementTowards(currentSpeed, targetSpeed, acceleration);
+      }
 
       // Face Direction
       if (moveDirX != 0)

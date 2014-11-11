@@ -12,6 +12,7 @@ public class Espinhos : MonoBehaviour
    /// <param name="collider"></param>
    void OnTriggerEnter(Collider collider)
    {
+      //Debug.Log("Ouch");
       if (collider.tag == "Player")
       {
          collider.GetComponent<Entity>().TakeDamage(10);
