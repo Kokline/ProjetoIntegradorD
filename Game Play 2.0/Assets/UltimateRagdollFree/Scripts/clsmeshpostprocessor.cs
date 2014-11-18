@@ -11,8 +11,9 @@ using UnityEditor;
 /// </summary>
 class MeshPostprocessor : AssetPostprocessor {
 
-	void OnPreprocessModel () {
-		(assetImporter as ModelImporter).optimizeMesh = false;
+	//void OnPreprocessModel () {
+		//(assetImporter as ModelImporter).optimizeMesh = false;
 	}
 
+}
 }

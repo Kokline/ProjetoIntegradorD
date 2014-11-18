@@ -113,7 +113,7 @@ public class PlayerController : Entity
       // Face Direction
       if (moveDirX != 0)
       {
-         transform.eulerAngles = (moveDirX > 0) ? Vector3.up * 90 : Vector3.up * 270;
+         transform.eulerAngles = (moveDirX > 0) ? Vector3.up * -90 : Vector3.up * -270;
       }
    }
 
