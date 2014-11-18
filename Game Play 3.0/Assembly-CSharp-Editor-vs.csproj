@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{A4DEDF5B-F646-F4ED-1637-02C63B8CADF8}</ProjectGuid>
+	<ProjectGuid>{4715498B-0C4B-FEEC-64BA-E6B11DF45A8D}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -71,16 +71,16 @@
      <None Include="Assets\Lightmapping Extended\Shaders\Alpha-Bumped.shader" />
      <None Include="Assets\Lightmapping Extended\Shaders\AlphaTest-Glossy.shader" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/Gustavo/Documents/GitHub/ProjetoIntegradorD/ProjetoIntegradorD/Game Play 2.1/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>C:/Users/Gustavo/Documents/GitHub/ProjetoIntegradorD/ProjetoIntegradorD/Game Play 3.0/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="ArcLayerManager">
- <HintPath>C:/Users/Gustavo/Documents/GitHub/ProjetoIntegradorD/ProjetoIntegradorD/Game Play 2.1/Assets/UltimateRagdollFree/Scripts/ArcLayerManager.dll</HintPath>
+ <HintPath>C:/Users/Gustavo/Documents/GitHub/ProjetoIntegradorD/ProjetoIntegradorD/Game Play 3.0/Assets/UltimateRagdollFree/Scripts/ArcLayerManager.dll</HintPath>
  </Reference>
  <Reference Include="U_r_g_utils">
- <HintPath>C:/Users/Gustavo/Documents/GitHub/ProjetoIntegradorD/ProjetoIntegradorD/Game Play 2.1/Assets/UltimateRagdollFree/Scripts/U_r_g_utils.dll</HintPath>
+ <HintPath>C:/Users/Gustavo/Documents/GitHub/ProjetoIntegradorD/ProjetoIntegradorD/Game Play 3.0/Assets/UltimateRagdollFree/Scripts/U_r_g_utils.dll</HintPath>
  </Reference>
  <Reference Include="U_r_g_freelib">
- <HintPath>C:/Users/Gustavo/Documents/GitHub/ProjetoIntegradorD/ProjetoIntegradorD/Game Play 2.1/Assets/UltimateRagdollFree/Scripts/Editor/U_r_g_freelib.dll</HintPath>
+ <HintPath>C:/Users/Gustavo/Documents/GitHub/ProjetoIntegradorD/ProjetoIntegradorD/Game Play 3.0/Assets/UltimateRagdollFree/Scripts/Editor/U_r_g_freelib.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -88,7 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
-      <Project>{1BB78F47-2DB8-FE72-3F21-C05B93515882}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+      <Project>{DBB23CBF-EB0D-21AB-AC5D-A86548421BB2}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

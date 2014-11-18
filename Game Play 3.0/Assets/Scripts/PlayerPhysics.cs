@@ -30,7 +30,6 @@ public class PlayerPhysics : MonoBehaviour
    private Vector3 platformPositionOld;
    private Vector3 deltaPlatformPos;
 
-
    Ray ray;
    RaycastHit hit;
 
@@ -76,6 +75,11 @@ public class PlayerPhysics : MonoBehaviour
          {
             platform = hit.transform;
             platformPositionOld = platform.position;
+
+            if (platform.tag == "PlatformV")
+            {
+               hit.transform.SendMessage("HitByRay");
+            }
 
             // Get Distance between player and ground
             float dst = Vector3.Distance(ray.origin, hit.point);

@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{01A2B812-E24A-7752-84EC-8BA562F028A4}</ProjectGuid>
+	<ProjectGuid>{96BD1846-140E-CB01-A3CD-77872CD8A6CE}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -68,10 +68,10 @@
      <None Include="Assets\Lightmapping Extended\Shaders\Alpha-Bumped.shader" />
      <None Include="Assets\Lightmapping Extended\Shaders\AlphaTest-Glossy.shader" />
  <Reference Include="ArcLayerManager">
- <HintPath>C:/Users/Gustavo/Documents/GitHub/ProjetoIntegradorD/ProjetoIntegradorD/Game Play 2.1/Assets/UltimateRagdollFree/Scripts/ArcLayerManager.dll</HintPath>
+ <HintPath>C:/Users/Gustavo/Documents/GitHub/ProjetoIntegradorD/ProjetoIntegradorD/Game Play 3.0/Assets/UltimateRagdollFree/Scripts/ArcLayerManager.dll</HintPath>
  </Reference>
  <Reference Include="U_r_g_utils">
- <HintPath>C:/Users/Gustavo/Documents/GitHub/ProjetoIntegradorD/ProjetoIntegradorD/Game Play 2.1/Assets/UltimateRagdollFree/Scripts/U_r_g_utils.dll</HintPath>
+ <HintPath>C:/Users/Gustavo/Documents/GitHub/ProjetoIntegradorD/ProjetoIntegradorD/Game Play 3.0/Assets/UltimateRagdollFree/Scripts/U_r_g_utils.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

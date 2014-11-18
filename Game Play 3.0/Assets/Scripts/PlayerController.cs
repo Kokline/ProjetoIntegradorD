@@ -71,7 +71,7 @@ public class PlayerController : Entity
       {
          ducking = true;
          animator.SetBool("Ducking", true);
-         playerPhysics.SetCollider(new Vector3(1.04f, 1.2f, 0.87f), new Vector3(-0.09f, 0.68f, 0.18f));
+         playerPhysics.SetCollider(new Vector3(1.19f, 1f, 0.79f), new Vector3(-0.12f, 0.49f, 0));
       }
       else
       {

@@ -43,12 +43,16 @@ public class PlatformVertical : MonoBehaviour
    /// <param name="collider"></param>
    void OnTriggerEnter(Collider collider)
    {
-      Debug.Log("OI");
       if (collider.tag == "Player")
       {
 
          turnOn = true;
       }
+   }
+
+   void HitByRay()
+   {
+      turnOn = true;
    }
 
    /// <summary>
