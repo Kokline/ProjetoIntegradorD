@@ -98,10 +98,10 @@
      <None Include="Assets\Lightmapping Extended\Shaders\Alpha-Bumped.shader" />
      <None Include="Assets\Lightmapping Extended\Shaders\AlphaTest-Glossy.shader" />
  <Reference Include="ArcLayerManager">
- <HintPath>F:/Fumec/Projeto Integrador D/Game Play 3.0/Assets/UltimateRagdollFree/Scripts/ArcLayerManager.dll</HintPath>
+ <HintPath>C:/Users/Gustavo/Documents/GitHub/ProjetoIntegradorD/ProjetoIntegradorD/Game Play 3.0/Assets/UltimateRagdollFree/Scripts/ArcLayerManager.dll</HintPath>
  </Reference>
  <Reference Include="U_r_g_utils">
- <HintPath>F:/Fumec/Projeto Integrador D/Game Play 3.0/Assets/UltimateRagdollFree/Scripts/U_r_g_utils.dll</HintPath>
+ <HintPath>C:/Users/Gustavo/Documents/GitHub/ProjetoIntegradorD/ProjetoIntegradorD/Game Play 3.0/Assets/UltimateRagdollFree/Scripts/U_r_g_utils.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
