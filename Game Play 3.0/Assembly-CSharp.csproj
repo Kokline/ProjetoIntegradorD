@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BoxGizmos.cs" />
+     <Compile Include="Assets\Scripts\Clock.cs" />
      <Compile Include="Assets\Scripts\Entity.cs" />
      <Compile Include="Assets\Scripts\Espinhos.cs" />
      <Compile Include="Assets\Scripts\GameCamera.cs" />

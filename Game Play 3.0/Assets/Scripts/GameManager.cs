@@ -10,9 +10,14 @@ public class GameManager : MonoBehaviour
    private GameObject currentPlayer;
    private GameCamera cam;
    private Vector3 checkpoint;
-
+   
    public static int levelCount = 2;
    public static int currentLevel = 1;
+   private float time = 30;
+   private float minutes = 0;
+   private float seconds = 0;
+   public GUIText timer;
+   private bool gameOver = false;
 
    /// <summary>
    /// Inicia a camera e ponto de inicio do jogo
@@ -27,6 +32,8 @@ public class GameManager : MonoBehaviour
       }
 
       SpawnPlayer(checkpoint);
+      timer.enabled = true;
+      StartCoroutine(Timer());
    }
 
    /// <summary>
@@ -44,13 +51,21 @@ public class GameManager : MonoBehaviour
    /// </summary>
    private void Update()
    {
-      if (!currentPlayer)
+      minutes = Mathf.FloorToInt(time / 60F);
+      seconds = Mathf.FloorToInt(time - minutes * 60);
+
+      if (!currentPlayer && !gameOver)
       {
          if (Input.GetButtonDown("Respawn"))
          {
             SpawnPlayer(checkpoint);
          }
       }
+   }
+
+   public void IncreaseTime()
+   {
+      time += 20;
    }
 
    /// <summary>
@@ -76,5 +91,24 @@ public class GameManager : MonoBehaviour
       {
          Debug.Log("Game Over");
       }
+   }
+
+   /// <summary>
+   /// Timer
+   /// </summary>
+   /// <returns></returns>
+   IEnumerator Timer()
+   {
+      timer.text = time.ToString();
+      while (time > 0)
+      {
+         timer.text = string.Format("{0:0}:{1:00}", minutes, seconds);
+         time -= 1;
+         yield return new WaitForSeconds(1);
+      }
+
+      GameObject.FindGameObjectWithTag("Player").GetComponent<Entity>().TakeDamage(10);
+      timer.text = "Game Over";
+      gameOver = true;
    }
 }
