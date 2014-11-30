@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{0D58B92B-363C-E101-2765-FE9179E48E3E}</ProjectGuid>
+	<ProjectGuid>{B8D1276F-88F9-37C8-B34F-A18E22979D22}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -57,10 +57,10 @@
      <None Include="assets\Materiais_Para_PuppetGame\Env_shader.shader" />
      <None Include="assets\Materiais_Para_PuppetGame\Atlas_02_Shader.shader" />
  <Reference Include="ArcLayerManager">
- <HintPath>C:/Users/Gustavo/Desktop/Game Play 2.0/Assets/ultimateragdollfree/scripts/ArcLayerManager.dll</HintPath>
+ <HintPath>C:/Users/Gustavo/Documents/GitHub/ProjetoIntegradorD/ProjetoIntegradorD/Game Play 4.0/Assets/ultimateragdollfree/scripts/ArcLayerManager.dll</HintPath>
  </Reference>
  <Reference Include="U_r_g_utils">
- <HintPath>C:/Users/Gustavo/Desktop/Game Play 2.0/Assets/ultimateragdollfree/scripts/U_r_g_utils.dll</HintPath>
+ <HintPath>C:/Users/Gustavo/Documents/GitHub/ProjetoIntegradorD/ProjetoIntegradorD/Game Play 4.0/Assets/ultimateragdollfree/scripts/U_r_g_utils.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
