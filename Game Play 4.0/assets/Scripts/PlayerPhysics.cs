@@ -81,6 +81,10 @@ public class PlayerPhysics : MonoBehaviour
             {
                hit.transform.SendMessage("HitByRay");
             }
+            if (platform.tag == "FallingPlat")
+            {
+               hit.transform.SendMessage("HitByRay");
+            }
 
             // Get Distance between player and ground
             float dst = Vector3.Distance(ray.origin, hit.point);
