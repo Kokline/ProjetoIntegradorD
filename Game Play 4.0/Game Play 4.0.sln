@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{EA515240-ECE3-C47B-ED48-3893ABFE33E0}") = "Game Play 4.0", "Assembly-CSharp.csproj", "{673A76C4-1CAC-56E9-F894-CBAD9B9FF0F1}"
 EndProject
-Project("{EA515240-ECE3-C47B-ED48-3893ABFE33E0}") = "Game Play 4.0", "Assembly-UnityScript.unityproj", "{B8D1276F-88F9-37C8-B34F-A18E22979D22}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,15 +13,14 @@ Global
 		{673A76C4-1CAC-56E9-F894-CBAD9B9FF0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{673A76C4-1CAC-56E9-F894-CBAD9B9FF0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{673A76C4-1CAC-56E9-F894-CBAD9B9FF0F1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B8D1276F-88F9-37C8-B34F-A18E22979D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B8D1276F-88F9-37C8-B34F-A18E22979D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B8D1276F-88F9-37C8-B34F-A18E22979D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B8D1276F-88F9-37C8-B34F-A18E22979D22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+												GlobalSection(MonoDevelopProperties) = preSolution
+=======
 		GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> origin/master
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

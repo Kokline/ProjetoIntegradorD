@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_4_5_5;UNITY_4_5;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_3;UNITY_4_5;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -65,36 +65,14 @@
      <Compile Include="assets\Scripts\PlayerPhysics.cs" />
      <Compile Include="assets\Scripts\Ragdoll.cs" />
      <Compile Include="assets\Scripts\Sawblade.cs" />
-     <Compile Include="assets\ultimateragdollfree\scripts\clsactorcontroller.cs" />
-     <Compile Include="assets\ultimateragdollfree\scripts\clsasmhelper.cs" />
-     <Compile Include="assets\ultimateragdollfree\scripts\clsbike.cs" />
-     <Compile Include="assets\ultimateragdollfree\scripts\clscameratarget.cs" />
-     <Compile Include="assets\ultimateragdollfree\scripts\clscannon.cs" />
-     <Compile Include="assets\ultimateragdollfree\scripts\clscannonball.cs" />
-     <Compile Include="assets\ultimateragdollfree\scripts\clsdismemberatorwrapper.cs" />
-     <Compile Include="assets\ultimateragdollfree\scripts\clskinetify.cs" />
-     <Compile Include="assets\ultimateragdollfree\scripts\clsmeshpostprocessor.cs" />
-     <Compile Include="assets\ultimateragdollfree\scripts\clsragdollhelperfree.cs" />
-     <Compile Include="assets\ultimateragdollfree\scripts\clsragdollifyfree.cs" />
-     <Compile Include="assets\ultimateragdollfree\scripts\clsragdollrelease.cs" />
-     <Compile Include="assets\ultimateragdollfree\scripts\clsshowcasehelper.cs" />
-     <Compile Include="assets\ultimateragdollfree\scripts\clstimemanager.cs" />
-     <Compile Include="assets\ultimateragdollfree\scripts\clstrigger.cs" />
      <None Include="assets\texturas e mapas\texture package\shaders\Puppet_material.shader" />
-     <None Include="assets\ultimateragdollfree\___U_r_g_README.txt" />
      <None Include="assets\Materiais_Para_PuppetGame\Puppet_material.shader" />
+     <None Include="assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="assets\texturas e mapas\Materials\Trap_Env_Material.shader" />
      <None Include="assets\texturas e mapas\texture package\shaders\Trap_Env_Material.shader" />
      <None Include="assets\texturas e mapas\Materials\Puppet_material.shader" />
-     <None Include="assets\ultimateragdollfree\___U_r_g_REFERENCE.txt" />
      <None Include="assets\Materiais_Para_PuppetGame\Env_shader.shader" />
      <None Include="assets\Materiais_Para_PuppetGame\Atlas_02_Shader.shader" />
- <Reference Include="ArcLayerManager">
- <HintPath>C:/Users/Gustavo/Documents/GitHub/ProjetoIntegradorD/ProjetoIntegradorD/Game Play 4.0/Assets/ultimateragdollfree/scripts/ArcLayerManager.dll</HintPath>
- </Reference>
- <Reference Include="U_r_g_utils">
- <HintPath>C:/Users/Gustavo/Documents/GitHub/ProjetoIntegradorD/ProjetoIntegradorD/Game Play 4.0/Assets/ultimateragdollfree/scripts/U_r_g_utils.dll</HintPath>
- </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

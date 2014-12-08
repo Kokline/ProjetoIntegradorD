@@ -14,7 +14,7 @@ public class GameCamera : MonoBehaviour
    public void SetTarget(Transform t)
    {
       target = t;
-      transform.position = new Vector3(target.position.x + 5, target.position.y + 2, transform.position.z);
+      transform.position = new Vector3(target.position.x + 10, target.position.y + 2, transform.position.z +5);
       transform.rotation = Quaternion.Euler(7, -32, -2);
    }
 
